@@ -11,3 +11,36 @@
 + **Email** oleg1le@gmail.com
 + **GitHub** https://github.com/oleg1le
 + **Location** Kherson, Ukraine
+
+****
+
+### About me
+Stagnation in the economy prompts to look for new opportunities for stable income and personal development. 
+
+Programming seems like a great idea. 
+
+My goal is to acquire knowledge and practical skills in front-end development.
+
+
+****
+
+### Skils
+
++ **HTML**
++ **CSS**
++ **JavaScript (basic)**
+
+
+****
+### Code example
+
+
+
+``` javascript
+function generateThead(tableHeading) {
+        const thead = document.createElement("thead");
+        const tr = generateTr(tableHeading, "th");
+        thead.appendChild(tr);
+        return thead;
+    } 
+```
