@@ -44,3 +44,21 @@ function generateThead(tableHeading) {
         return thead;
     } 
 ```
+
+
+****
+
+### Education and courses:
+  #### JavaScript:
+ + https://learn.javascript.ru/
+ + https://doka.guide/
+ + https://www.udemy.com/ (began to study) Современный JavaScript + Vue с нуля на реальных проектах
+
+
+ **** 
+
+ ### Language:
+
+ English level - A1 
+ 
+ I am studying at an English language school ‘EnglishPapa'
