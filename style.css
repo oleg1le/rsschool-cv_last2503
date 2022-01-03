@@ -227,6 +227,22 @@ span {
   font-weight: 700;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+.nav label {
+  display: none;
+  /* border: 1px solid #fff;    */
+  /* text-align: right; */
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav label:hover {
+  color: #553d67;
+  /* border: 1px solid #f00; */
+}
+
 @media (max-width: 1440px) {
   .container {
     padding: 0 20px;
@@ -262,8 +278,26 @@ span {
   .section__courses {
     border-bottom: 2px solid #272727;
   }
+
   pre {
     font-size: 16px;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .nav label {
+    display: inline-block;
+    opacity: 0.7;
+  }
+  
+  .nav > ul {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked ~ label + ul {
+    display: block;
   }
 }
 
