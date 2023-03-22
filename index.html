@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/svg/black_swan.ico">
+	<link rel="stylesheet" href="style.css">
+	<title>CV</title>
+</head>
+<body>
+ <header class="header">
+    <div class="container container__header">
+      <nav class="nav">
+        <input type="checkbox" name="menu" id="btn-menu">
+        <label for="btn-menu">&#9776;</label> 
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link" title='Contacts'>Contacts</a>
+          </li>
+          <li class="nav__item"> 
+            <a href="#summary" class="nav__link" title='Summary'>Summary</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link" title='Skills'>Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#code" class="nav__link" title='Code'>Code</a>
+          </li>
+          <li class="nav__item">
+            <a href="#courses" class="nav__link" title='Courses'>Courses</a>
+          </li>
+          <li class="nav__item">
+            <a href="#language" class="nav__link" title='Language'>Language</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- <div class="menu__burger">
+    	<span></span>
+    </div> -->
+  </header>
+ <main class="main">
+    <div class="container main__container">
+      <section class="section section__avatar" id="ptofile">
+        <img src="./assets/img/avatar.jpg" alt="Photo Oleh Lebediev" class="section__profile__avatar">
+        <div class="section__profile__title">
+          <h1 class="section__title">Oleh Lebediev</h1>
+          <h3 class="section__subtitle">
+            Studying Front-End Development
+          </h3>
+        </div>
+      </section>
+      <section class="section section__contacts" id="contacts">
+        <h2 class="section__title">Contacts</h2>
+        <ul class="section__list main__list__contacts">
+          <li class="section__item">
+            <div class="contact__image contact__image__location">
+            </div>
+            <div class="contact__text">
+              <a href="https://www.google.com/maps/@46.6488224,32.621587,11z" target="_blank" rel="noopener noreferrer" title="map" class="main__link">
+                Kherson, Ukraine
+              </a>
+            </div>
+          </li>
+          <li class="section__item">
+            <div class="contact__image contact__image__github">
+            </div>
+            <div class="contact__text">
+              <a href="https://github.com/oleg1le" target="_blank" rel="noopener noreferrer" title="github" class="main__link">
+                github.com/oleg1le
+              </a>
+            </div>
+          </li>
+          <li class="section__item">
+            <div class="contact__image contact__image__email">
+            </div>
+            <div class="contact__text">
+              <a href="malito:oleg1le@gmail.com" title="email" class="main__link">
+                oleg1le@gmail.com
+              </a>
+            </div>
+          </li>
+          <li class="section__item">
+            <div class="contact__image contact__image__phone">
+            </div>       
+            <div class="contact__text">
+              <a href="tel:+380506645627" target="_blank" rel="noopener noreferrer" title="+380506645627" class="main__link">phone</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="section section__summary" id="summary">
+        <h2 class="section__title">Summary</h2>
+        <p>
+          Stagnation in the economy prompts to look for new opportunities for stable income and personal development. 
+          Programming seems like a great idea. My goal is to acquire knowledge and practical skills in front-end development.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="section__list">
+          <li class="section__item">
+            <p>HTML</p>
+          </li>
+          <li class="section__item">
+            <p>CSS</p>
+          </li>
+          <li class="section__item">
+            <p>JavaScript (basic)</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section__title">Code</h2>
+        <pre class="main__pre">
+          <code>
+            function generateThead(tableHeading) {
+              const thead = document.createElement("thead");
+              const tr = generateTr(tableHeading, "th");
+              thead.appendChild(tr);
+              return thead;
+            } 
+          </code>
+        </pre>
+      </section>
+      <section class="section section__courses" id="courses">
+        <h2 class="section__title">Courses</h2>
+        <ul class="section__list section__list__courses">
+          <li class="section__item section__item__courses">
+            <p><span>RS Schools:</span> JavaScript/Front-end. Stage 0</p>
+            </li>
+          <li class="section__item section__item__courses">
+            <p><span>JavaScript:</span> JavaScript tutorial(learnJS)</p>
+          <li class="section__item section__item__courses">
+            <p><span>Udemy:</span> Modern JavaScript from Beginning (in the process of studying)</p>
+          </li>
+          <li class="section__item section__item__courses">
+            <p><span>English:</span> English school "EnglishPapa" (in the process of studying)</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section section__language" id="language">
+        <h2 class="section__title">Language</h2>
+        <ul class="section__list">
+          <li class="section__item">
+            <p><span>Russian</span> - Native</p>
+          </li>
+          <li class="section__item">
+            <p><span>Ukrainian</span> - Native</p>
+          </li>
+          <li class="section__item">
+            <p><span>English</span> - A1</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="section__list section__list__footer">
+        <li class="section__item section__item__footer">
+          <a href="https://github.com/oleg1le" target="_blank" rel="noopener noreferrer" title="github">
+          	<div class="footer__github"></div>
+          </a>
+        </li>
+        <li class="section__item"><p class="footer__year">© 2022</p></li>
+        <li class="section__item section__item__footer">
+          <a href="https://rs.school/js-stage0/" target="_blank" rel="noopener noreferrer" title="rsschool">
+          	<div class="footer__rsschool"></div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
